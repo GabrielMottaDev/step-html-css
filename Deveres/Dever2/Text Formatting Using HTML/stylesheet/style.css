@@ -1,0 +1,40 @@
+header {
+    position: fixed;
+    color: darkgray;
+    background: darkgray;
+    width: 100%;
+    height: 10%;
+    padding-top: 0px;
+    color: white;
+}
+
+section {
+    padding-top: 100px;
+}
+
+body {
+    background: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    color: #d81e1e;
+    text-shadow: 2px 2px #000000;
+}
+
+h3 {
+    color: black;
+    text-shadow: 2px 2px #8c8989;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    color: black;
+}
