@@ -11,6 +11,13 @@ header {
     color: white;
 }
 
+footer {
+    position: sticky;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 nav {
     
 }
@@ -25,4 +32,18 @@ article {
 section {
     font-size: 15px;
     text-align: left;
+}
+
+table {
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #090708;
+    width: 30%;
+}
+
+td {
+    border: 1px solid #090708;
 }
