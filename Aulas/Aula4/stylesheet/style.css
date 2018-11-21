@@ -1,0 +1,19 @@
+* {
+    text-align: left;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+#foto-gabriel {
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
