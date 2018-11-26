@@ -1,1 +1,1 @@
-<a href="Text%20Formating%20Using%HTML">Text Formating Using HTML</a>
+<a href="Text%20Formatting%20Using%HTML">Text Formating Using HTML</a>
