@@ -1,13 +1,19 @@
 * {
+    margin: 0 auto;
     text-align: left;
 }
 
-ul {
-    list-style-type: circle;
+#aula4 a {
+    text-decoration: none;
+    color: black;
 }
 
-ol {
-    list-style-type: decimal;
+#aula4 a:hover {
+    color: darkblue;
+}
+
+#aula4 ul {
+    list-style: none;
 }
 
 #foto-gabriel {
@@ -16,4 +22,121 @@ ol {
     margin-left: auto;
     margin-right: auto;
     width: 300px;
+}
+
+header {
+    position: fixed;
+    background: cadetblue;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10%;
+    color: white;
+    overflow: visible;
+}
+
+header h1 {
+    text-align: center;
+    color: black;
+    display: block;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 100%;
+    height: 80px;
+    background: cadetblue;
+}
+
+footer p {
+    margin-top: 20px;
+    color: black;
+    font-size: 13pt;
+}
+
+nav {
+    
+}
+
+#aula3 article {
+    font-size: 20px;
+    padding-top: 90px;
+    text-align: center;
+    align-content: center;
+}
+
+#aula3 section {
+    font-size: 15px;
+    text-align: left;
+}
+
+#aula3 table {
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #090708;
+    width: 30%;
+}
+
+#aula3 td {
+    border: 1px solid #090708;
+}
+
+#circle-list {
+    list-style: circle;
+}
+
+#square-list {
+    list-style: square;
+}
+
+#roman-list{
+    list-style: upper-roman;
+}
+
+#dever3 table {
+    border-collapse: collapse;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #090708;
+    width: 50%;
+}
+
+#dever3 td {
+    border: 1px solid #090708;
+    height: 25px;
+}
+
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
 }
