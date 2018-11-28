@@ -1,1 +1,1 @@
-<a href="Graphics">Graphics</a>
+<a href="Graphics/">Graphics</a>

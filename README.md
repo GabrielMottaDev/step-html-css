@@ -5,6 +5,6 @@ Este repositório é destinado ao armazenamento de deveres e exercicíos do curs
 Para explorar melhor os projetos é recomendável acessar o repositório através deste link:
 https://gabrielmottadev.github.io/step-html-css/
 
-<a href="Aulas">Aulas</a>
+<a href="Aulas/">Aulas</a>
 <br/>
-<a href="Deveres">Deveres</a>
+<a href="Deveres/">Deveres</a>
