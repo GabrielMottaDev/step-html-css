@@ -1,0 +1,36 @@
+* {
+    margin: 0 auto;
+}
+
+#page-border {
+    margin-top: 40px;
+    height: 500px;
+    width: 80%;
+    
+    border: 2px solid blue;
+}
+
+#artigo {
+    margin-top: 20px;
+    display: table;
+}
+
+h2 {
+    text-align: center;
+    color: cornflowerblue;
+}
+
+p {
+    font-size: 15pt;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+img {
+    margin-top: -10px;
+    margin-right: 20px;
+    float: right;
+    width: 200px;
+    border: 2px solid blue;
+}
