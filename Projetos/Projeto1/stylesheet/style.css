@@ -24,6 +24,14 @@
     width: 300px;
 }
 
+#teste {
+    background: red;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
 #div-cab {
     width: 200px;
     height: 100%;
@@ -49,6 +57,10 @@ header h1 {
     margin-right: auto;
 }
 
+nav {
+   position: fixed;
+}
+
 footer {
     margin-top: 20px;
     margin-left: auto;
@@ -66,9 +78,7 @@ footer p {
     font-size: 13pt;
 }
 
-nav {
-    
-}
+
 
 #aula3 article {
     font-size: 20px;
