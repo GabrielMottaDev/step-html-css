@@ -24,6 +24,13 @@
     width: 300px;
 }
 
+#div-cab {
+    width: 200px;
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+
 header {
     position: fixed;
     background: cadetblue;
@@ -31,14 +38,15 @@ header {
     height: 80px;
     margin-bottom: 10%;
     color: white;
-    overflow: visible;
 }
 
 header h1 {
-    text-align: center;
     color: black;
-    display: block;
+    display: inline-block;
     margin-top: 20px;
+    position: relative;
+    float: none;
+    margin-right: auto;
 }
 
 footer {
@@ -47,12 +55,13 @@ footer {
     margin-right: auto;
     
     width: 100%;
-    height: 80px;
+    height: 100px;
     background: cadetblue;
 }
 
 footer p {
-    margin-top: 20px;
+    text-align: center;
+    padding-top: 30px;
     color: black;
     font-size: 13pt;
 }
@@ -117,7 +126,10 @@ nav {
 
 
 .container {
-    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+    display: block;
     cursor: pointer;
 }
 
@@ -126,7 +138,7 @@ nav {
     height: 5px;
     background-color: #333;
     margin: 6px 0;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 .change .bar1 {

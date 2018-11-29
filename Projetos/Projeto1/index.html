@@ -1,180 +1,195 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="UTF-8">
-      <title>Projeto1</title>
-      <link rel="stylesheet" href="stylesheet/style.css">
-      <script src="script/script.js"></script>
-   </head>
-   <body>
-      <header>
-          <h1 id="cabecalho">Cabeçalho</h1>
-      </header>
-       
-      <br/><br/><br/><br/><br/><br/>
-      <nav>
-         <div id="aula4">
-            <table >
-               <thead>
-                  <th>Menu</th>
-                  <th>Conteudo</th>
-               </thead>
-               <tbody>
-                  <tr>
-                     <td>
-                        <a href="https://youtube.com/">LINK1</a>
-                     </td>
-                     <td>
-                        <ul>
-                           <li><a href="https://youtube.com/">LINK2</a></li>
-                        </ul>
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-         </div>
-      </nav>
-      <a href="https://youtube.com/">
-      <img id="foto-gabriel" src="https://meusanimais.com.br/wp-content/uploads/2018/05/diferenca-vertebrados-invertebrados-elefante.jpg">
-      </a>
-      <article id="aula3">
-         What is Lorem Ipsum?
-         <section>
-            <p>What is Lorem Ipsum?
-               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-               Why do we use it?
-               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-               Where does it come from?
-               Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-               The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-               Where can I get some?
-               There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-            </p>
+    <head>
+        <meta charset="UTF-8">
+        <title>Projeto1</title>
+        <link rel="stylesheet" href="stylesheet/style.css">
+        <script src="script/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
+            <script>
+                function myFunction(x) {
+                    x.classList.toggle("change");
+                }
+            </script>
+            <div id="div-cab">
+                <h1 id="cabecalho">Cabeçalho</h1>
+            </div>
+        </header>
+
+        <br/><br/><br/><br/><br/><br/>
+        <nav>
+            <div id="aula4">
+                <table >
+                    <thead>
+                        <th>Menu</th>
+                        <th>Conteudo</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="https://youtube.com/">LINK1</a>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li><a href="https://youtube.com/">LINK2</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </nav>
+        <a href="https://youtube.com/">
+            <img id="foto-gabriel" src="https://meusanimais.com.br/wp-content/uploads/2018/05/diferenca-vertebrados-invertebrados-elefante.jpg">
+        </a>
+        <article id="aula3">
+            What is Lorem Ipsum?
+            <section>
+                <p>What is Lorem Ipsum?
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Why do we use it?
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                    Where does it come from?
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                    Where can I get some?
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                </p>
+                <table>
+                    <thead>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>Idade</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Gabriel</td>
+                            <td>Motta</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td>TESTE</td>
+                            <td>TESTE</td>
+                            <td>TESTE</td>
+                        </tr>
+                        <tr>
+                            <td>TESTE</td>
+                            <td>TESTE</td>
+                            <td>TESTE</td>
+                        </tr>
+                        <tr>
+                            <td>TESTE</td>
+                            <td>TESTE</td>
+                            <td>TESTE</td>
+                        </tr>
+                        <tr>
+                            <td>TESTE</td>
+                            <td>TESTE</td>
+                            <td>TESTE</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+        <button>A<sup>+</sup></button>
+        <p>3<sup>3</sup></p>
+        <p>H<sub>2</sub>O</p>
+        <div id="dever4">
+            <p>TESTANDO</p>
+            <strong>TESTE1</strong>
+            <br/>
+            <em>TESTE2</em>
+            <br/>
+            <abbr>TESTE3</abbr>
+            <br/>
+            <acronym>TESTE4</acronym>
+            <br/>
+            <cite>TESTE5</cite>
+            <br/>
+            <code>TESTE6</code>
+            <br/>
+            <del>TESTE7</del>
+            <br/>
+            <dfn>TESTE8</dfn>
+            <br/>
+            <ins>TESTE9</ins>
+        </div>
+        <div>
+            <p>Frutas:</p>
+            <ul>
+                <li>Banana</li>
+                <li>Maça</li>
+                <li>Morango</li>
+                <li>Uva</li>
+            </ul>
+            <br/>
+            <a>A fazeres:</a>
+            <ol>
+                <li>Bla-bla</li>
+                <li>Bla-bla-bla</li>
+                <li>Bla-bla-bla-bla/li>
+            </ol>
+            <br/>
+            <a>Circle list:</a>
+            <ul id="circle-list">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+            </ul>
+            <br/>
+            <a>Square list:</a>
+            <ul id="square-list">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+            </ul>
+            <br/>
+            <a>Roman list:</a>
+            <ul id="roman-list">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+            </ul>
+        </div>
+        <div id="dever3">
             <table>
-               <thead>
-                  <th>Nome</th>
-                  <th>Sobrenome</th>
-                  <th>Idade</th>
-               </thead>
-               <tbody>
-                  <tr>
-                     <td>Gabriel</td>
-                     <td>Motta</td>
-                     <td>16</td>
-                  </tr>
-                  <tr>
-                     <td>TESTE</td>
-                     <td>TESTE</td>
-                     <td>TESTE</td>
-                  </tr>
-                  <tr>
-                     <td>TESTE</td>
-                     <td>TESTE</td>
-                     <td>TESTE</td>
-                  </tr>
-                  <tr>
-                     <td>TESTE</td>
-                     <td>TESTE</td>
-                     <td>TESTE</td>
-                  </tr>
-                  <tr>
-                     <td>TESTE</td>
-                     <td>TESTE</td>
-                     <td>TESTE</td>
-                  </tr>
-               </tbody>
+                <thead>
+                    <th>Lorem</th>
+                    <th>Ipsum</th>
+                    <th>Dolor</th>
+                </thead>
+                <tbody>
+                    <td>Lorem</td>
+                    <td>Ipsum</td>
+                    <td>Dolor</td>
+                </tbody>
+                <tbody>
+                    <td>Lorem</td>
+                    <td>Ipsum</td>
+                    <td>Dolor</td>
+                </tbody>
+                <tbody>
+                    <td>Lorem</td>
+                    <td>Ipsum</td>
+                    <td>Dolor</td>
+                </tbody>
+                <tbody>
+                    <td>Lorem</td>
+                    <td>Ipsum</td>
+                    <td>Dolor</td>
+                </tbody>
             </table>
-         </section>
-      </article>
-      <button>A<sup>+</sup></button>
-      <p>3<sup>3</sup></p>
-      <p>H<sub>2</sub>O</p>
-      <div id="dever4">
-         <p>TESTANDO</p>
-         <strong>TESTE1</strong>
-         <br/>
-         <em>TESTE2</em>
-         <br/>
-         <abbr>TESTE3</abbr>
-         <br/>
-         <acronym>TESTE4</acronym>
-         <br/>
-         <cite>TESTE5</cite>
-         <br/>
-         <code>TESTE6</code>
-         <br/>
-         <del>TESTE7</del>
-         <br/>
-         <dfn>TESTE8</dfn>
-         <br/>
-         <ins>TESTE9</ins>
-      </div>
-      <div>
-         <p>Frutas:</p>
-         <ul>
-            <li>Banana</li>
-            <li>Maça</li>
-            <li>Morango</li>
-            <li>Uva</li>
-         </ul>
-         <br/>
-         <a>A fazeres:</a>
-         <ol>
-            <li>Bla-bla</li>
-            <li>Bla-bla-bla</li>
-            <li>Bla-bla-bla-bla/li>
-         </ol>
-         <br/>
-         <a>Circle list:</a>
-         <ul id="circle-list">
-            <li>Item1</li>
-            <li>Item2</li>
-            <li>Item3</li>
-         </ul>
-         <br/>
-         <a>Square list:</a>
-         <ul id="square-list">
-            <li>Item1</li>
-            <li>Item2</li>
-            <li>Item3</li>
-         </ul>
-         <br/>
-         <a>Roman list:</a>
-         <ul id="roman-list">
-            <li>Item1</li>
-            <li>Item2</li>
-            <li>Item3</li>
-         </ul>
-      </div>
-      <div id="dever3">
-         <table>
-            <thead>
-               <th>Lorem</th>
-               <th>Ipsum</th>
-               <th>Dolor</th>
-            </thead>
-            <tbody>
-               <td>Lorem</td>
-               <td>Ipsum</td>
-               <td>Dolor</td>
-            </tbody>
-            <tbody>
-               <td>Lorem</td>
-               <td>Ipsum</td>
-               <td>Dolor</td>
-            </tbody>
-            <tbody>
-               <td>Lorem</td>
-               <td>Ipsum</td>
-               <td>Dolor</td>
-            </tbody>
-            <tbody>
-               <td>Lorem</td>
-               <td>Ipsum</td>
-               <td>Dolor</td>
-            </tbody>
-         </table>
-      </div>
-      <footer><p>&copy; 2018 Attom, Inc</p></footer>
-   </body>
+        </div>
+        <footer>
+            <p>&copy; 2018 Attom, Inc</p>
+        </footer>
+    </body>
 </html>
