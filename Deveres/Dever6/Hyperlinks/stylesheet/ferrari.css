@@ -1,0 +1,78 @@
+* {
+    margin: 0 auto;
+}
+
+#page-border {
+    position: relative;
+    margin-top: 40px;
+    height: 500px;
+    width: 80%;
+    
+    border: 2px solid blue;
+}
+
+#artigo {
+    margin-top: 20px;
+    display: table;
+}
+
+#cars {
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 35pt;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+p {
+    font-size: 15pt;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+#car {
+    margin: 0px 40px 0px 40px;
+}
+
+img {
+    border: 2px solid black;
+    width: 300px;
+    transition: .4s;
+}
+
+img:hover {
+    border: 2px solid white;
+    opacity: 0.8;
+    transition: .4s;
+    
+}
+
+#btn {
+    bottom: 0;
+    position: absolute;
+    
+    margin: 20px;
+    cursor: pointer;
+    width: 200px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    transition: .7s;
+}
+
+#btn:hover {
+    border: 1px solid gray;
+    border-radius: 20px;
+    transition: .7s;
+    opacity: .7;
+}
+
+#btn a {
+    font-size: 40pt;
+    text-decoration: inherit;
+    color: black;
+}
