@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Projeto1</title>
+        <link rel="stylesheet" href="css/contato.css">
+        <script src="script/script.js"></script>
+    </head>
+    <body>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Contato</legend>
+                    <div class="form-st">
+                        
+                        <div>Nome: <input type="text" name="name"></div><br>
+                        <div>Email: <input type="text" name="email"></div><br>
+                        <div>Genero:
+                            <input type="radio" name="gender" value="male" checked> Masculino
+                            <input type="radio" name="gender" value="female"> Feminino
+                            <input type="radio" name="gender" value="other"> Outro
+                        </div>
+                        <div>
+                            Como nos conheceu? 
+                            <select name="cars">
+                                <option value="volvo">Google</option>
+                                <option value="saab">Facebook</option>
+                                <option value="fiat">Twitter</option>
+                                <option value="audi">Amigos</option>
+                            </select>
+                        </div>
+                        <div>Mensagem: <br><textarea name="message" rows="10" cols="30"></textarea></div><br>
+                        <input type="submit">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

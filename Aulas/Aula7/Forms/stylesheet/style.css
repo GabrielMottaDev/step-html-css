@@ -1,0 +1,7 @@
+* {
+    text-align: left;
+}
+
+span, div {
+    border: 2px solid red;
+}
