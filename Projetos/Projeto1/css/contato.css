@@ -1,5 +1,92 @@
 * {
     margin: 0 auto;
+    text-align: left;
+}
+
+#div-cab {
+    width: 200px;
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+
+#menus {
+    width: 500px;
+    height: 60px;
+    position: absolute;
+    margin-left: 60px;
+}
+
+#menus div{
+    display: inline-block;
+}
+
+#menu {
+    text-decoration: none;
+    color: black;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 1px;
+    margin-left: 20px;
+    position: relative;
+    width: 100px;
+    height: 60px;
+}
+
+#menu:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+header {
+    position: fixed;
+    background: white;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10%;
+    color: white;
+    border-bottom: 1mm ridge white;
+}
+
+header h1 {
+    color: black;
+    display: inline-block;
+    margin-top: 10px;
+    position: relative;
+    float: none;
+    margin-right: auto;
+}
+
+.container {
+    margin-top: 10px;
+    margin-left: 15px;
+    float: left;
+    display: block;
+    cursor: pointer;
+}
+
+.container:hover {
+    opacity: 0.6;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.2s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
 }
 
 div {

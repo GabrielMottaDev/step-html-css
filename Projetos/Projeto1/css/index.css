@@ -43,6 +43,36 @@
     width: 90%;
 }
 
+#menus {
+    width: 500px;
+    height: 60px;
+    position: absolute;
+    margin-left: 60px;
+}
+
+#menus div{
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+}
+
+#menu {
+    text-decoration: none;
+    color: black;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 1px;
+    margin-left: 20px;
+    position: relative;
+    width: 100px;
+    height: 60px;
+}
+
+#menu:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+
 header {
     position: fixed;
     background: white;
@@ -146,6 +176,10 @@ footer p {
     float: left;
     display: block;
     cursor: pointer;
+}
+
+.container:hover {
+    opacity: 0.6;
 }
 
 .bar1, .bar2, .bar3 {
