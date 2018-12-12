@@ -1,6 +1,6 @@
 * {
     margin: 0 auto;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Palanquin', sans-serif;
 }
 
 /*Sandwich Button Part*/
@@ -77,53 +77,150 @@ header {
 
 /*Content Part*/
 
+/* Botao */
+
+.botao {
+    margin-top: 20px;
+}
+
+.botao > a {
+    text-decoration-line: none;
+    border: 3px solid #fec63e;
+    padding: 8px 30px;
+    color: #fec63e;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    transition: all .5s ease;
+}
+
+/* Introducao */
 .introducao {
+    display: block;
     margin-top: 90px;
     text-align: center;
     padding-top: 80px;
-    background-image: url("http://bikcraft.com/wp-content/uploads/2015/10/bg-768x380.jpg");
+    background: url("http://bikcraft.com/wp-content/uploads/2015/10/bg-768x380.jpg") no-repeat center;
     background-size: cover;
     height: 300px;
     width: 100%;
 }
 
 .introducao > h1 {
-    margin-top: 15px;
+    margin-top: -20px;
     color: white;
     font-size: 35pt;
 }
 
 .introducao > h2 {
     color: white;
-    font-size: 15pt;
-    margin-top: 20px;
+    font-size: 12pt;
+    margin-top: 0px;
 }
 
 .introducao > p {
+    margin-top: -10px;
     color: white;
-    margin-top: 20px;
     font-weight: 500;
 }
 
-.botao {
+.introducao > .mention:before, .mention:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 10px auto 5px auto;
+}
+
+.introducao > .botao > a:hover {
+    color: white;
+    border: 3px solid white;
+    transition: all .5s ease;
+}
+
+/* Produtos */
+
+.produtos {
+    margin-top: 0;
+    min-height: 200px;
+    max-height: none;
+    display: block;
+    width: 100%;
+}
+
+.produtos > h1 {
+    padding: 30px 0;
+    display: block;
+}
+
+.produtos > h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 0px auto 5px auto;
+}
+
+.produtos > h1, p {
+    text-align: center;
+}
+
+.produtos-row {
+    width: 900px;
+    padding: 0px 0px 0px 20px;
+    min-height: 300px;
+    max-height: none;
+}
+
+.produto-card {
+    margin-left: 25px;
+    display: inline-block;
+    background: green;
+    width: 250px;
+    height: 320px;
+}
+
+.produto-img {
+    color: white;
+    text-align: center;
+    background: black;
+    height: 60%;
+}
+
+.produto-desc {
+    background: #fec63e;
+    height: 40%;
+}
+
+.produto-desc h1,p{
+    text-align: center;
+}
+
+.produtos-bottom {
     margin-top: 30px;
+    width: 100%;
 }
 
-.botao > p {
-    font-size: 15pt;
-    font-weight: 500;
-    line-height: 40px;
-    color: #fec63e;
-    text-decoration: none;
-    text-decoration-line: none;
-    border: 3px solid #fec63e;
-    width: 180px;
+.produtos-bottom > .botao {
+    display: table;
 }
+
+.produtos-bottom > .botao > a:hover {
+    color: black;
+    border: 3px solid black;
+    transition: all .5s ease;
+}
+
+
 
 /*Footer part*/
 
 footer {
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
 
