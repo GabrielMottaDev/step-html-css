@@ -47,7 +47,6 @@ header {
 }
 
 .menus {
-    float: right;
     text-align: center;
     display: inline-block;
     width: 65%;
