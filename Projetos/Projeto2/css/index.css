@@ -5,15 +5,13 @@
 
 /*Sandwich Button Part*/
 
-.sandwich {
+.sandwich > .bars {
+    display: block;
+    vertical-align: middle;
     float: left;
     display: block;
     cursor: pointer;
-    margin: 25px;
-}
-
-.sandwich:hover {
-    opacity: 0.6;
+    padding: 26px;
 }
 
 .bar1, .bar2, .bar3 {
@@ -36,17 +34,25 @@
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
+.change .menus {
+    opacity: 1;
+    transition: 0.2s;
+}
+
 /*Header part*/
 
 header {
     top: 0;
     position: fixed;
+    display: inline-block;
     height: 90px;
     width: 100%;
     background-color: #fec63e;
 }
 
 .menus {
+    opacity: 0;
+    transition: 0.2s;
     text-align: center;
     display: inline-block;
     width: 65%;
@@ -194,6 +200,10 @@ header {
     height: 60%;
 }
 
+.produto-img > img{
+    margin: 20px;
+}
+
 .produto-desc {
     height: 40%;
 }
@@ -214,8 +224,6 @@ header {
 .produto-desc > p {
     font-size: 12pt;
 }
-
-
 
 .produtos-bottom {
     margin-top: 30px;
