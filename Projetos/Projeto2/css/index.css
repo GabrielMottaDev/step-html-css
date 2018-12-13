@@ -57,6 +57,18 @@ header {
     display: inline-block;
     width: 65%;
     height: 100%;
+    
+}
+
+@media screen and (min-width: 992px) {
+    .sandwich > .bars {
+        opacity: 0;
+        display: none;
+    }
+    .menus {
+        overflow: hidden;
+        opacity: 1;
+    }
 }
 
 .menu {
