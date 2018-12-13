@@ -1,7 +1,7 @@
 * {
     margin: 0 auto;
     font-family: 'Palanquin', sans-serif;
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent !important;
 }
 
 *:focus {
