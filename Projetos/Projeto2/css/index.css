@@ -1,12 +1,7 @@
 * {
     margin: 0 auto;
     font-family: 'Palanquin', sans-serif;
-    webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 /*Sandwich Button Part*/
