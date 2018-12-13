@@ -3,6 +3,10 @@
     font-family: 'Palanquin', sans-serif;
     -webkit-tap-highlight-color: transparent;
 }
+    
+:focus {
+    outline: none !important;
+}
 
 /*Sandwich Button Part*/
 
