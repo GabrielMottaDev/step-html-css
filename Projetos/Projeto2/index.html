@@ -15,12 +15,11 @@
 
         <!-- Custom -->
 
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/index.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato|Slabo+27px" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Palanquin" rel="stylesheet">
-        <script src="js/index.js"></script>
-
 
     </head>
     <body>
@@ -166,18 +165,29 @@
             </ul>
 
             <div class="produtos-bottom">
-
                 <div class="botao">
-                    <a href="#">
+                    <a href="#produtos">
                         MAIS PRODUTOS
-
                     </a>
                 </div>
                 <p>Clique para ver mais produtos</p>
+                <div class="pagination-box">
+                    <div class="pagination">
+                        <a href="#">&laquo;</a>
+                        <a href="#" class="active">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">&raquo;</a>
+                    </div>
+                </div>
+
             </div>
         </section>
         <section id="portfolio" class="portfolio">
-
+            <h1>CARROSEL</h1>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -221,5 +231,8 @@
         <footer>
             <p>&copy; 2018 Attom, Inc</p>
         </footer>
+        <a class="arrow-up" href="#">
+            <img src="img/arrow-up.png">
+        </a>
     </body>
 </html>
