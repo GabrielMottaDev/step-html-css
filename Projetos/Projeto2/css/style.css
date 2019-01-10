@@ -11,6 +11,10 @@
     -webkit-tap-highlight-color: transparent !important;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*Sandwich Button Part*/
 
 .sandwich > .bars {
@@ -52,6 +56,10 @@
 
 /*Header part*/
 
+.empty-header {
+    background: black;
+}
+
 header {
     overflow: hidden;
     top: 0;
@@ -83,12 +91,12 @@ header {
     header {
         height: 90px;
     }
+    .empty-header {
+        height: 90px;
+    }
     .menu > div {
         line-height: 90px;
         font-size: 22px;
-    }
-    .introducao {
-        margin-top: 90px;
     }
 }
 
@@ -101,11 +109,11 @@ header {
     header {
         height: 59px;
     }
+    .empty-header {
+        height: 59px;
+    }
     .menu > div {
         line-height: 59px;
-    }
-    .introducao {
-        margin-top: 59px;
     }
 }
 
@@ -160,7 +168,7 @@ header {
 
 .introducao-background {
     height: 300px;
-    
+
     background: url("https://wallpaper21.com/wp-content/uploads/2017/08/Blue-and-Purple-Nebula-page-Pics-about-space-wallpaper-wpt7202878.jpg") no-repeat center;
     background-size: cover;
     filter: blur(4px);
@@ -454,12 +462,17 @@ footer p {
     display: none;
     right: 10px;
     bottom: 10px;
-    transition: 1s;
+    visibility: hidden;
 }
 
 .scrolled-arrow-up {
-    transition: all 1.5s ease;
     display: block;
+    visibility: visible;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 /* MOBILE ARROW-UP */
