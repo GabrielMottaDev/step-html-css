@@ -163,7 +163,7 @@ header {
     
     background: url("https://wallpaper21.com/wp-content/uploads/2017/08/Blue-and-Purple-Nebula-page-Pics-about-space-wallpaper-wpt7202878.jpg") no-repeat center;
     background-size: cover;
-    filter: blur(1px);
+    filter: blur(4px);
     transform: scale(1.1); 
 }
 
