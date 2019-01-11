@@ -83,40 +83,6 @@ header {
     height: 100%;
 }
 
-/* MOBILE */
-@media screen and (max-width: 992px) {
-    .menus {
-        display: none;
-    }
-    header {
-        height: 90px;
-    }
-    .empty-header {
-        height: 90px;
-    }
-    .menu > div {
-        line-height: 90px;
-        font-size: 22px;
-    }
-}
-
-/* DESKTOP */
-@media screen and (min-width: 992px) {
-    .sandwich > .bars {
-        display: none;
-        padding: 10px;
-    }
-    header {
-        height: 59px;
-    }
-    .empty-header {
-        height: 59px;
-    }
-    .menu > div {
-        line-height: 59px;
-    }
-}
-
 .menu {
     text-decoration: none;
     color: #dddddd;
@@ -137,6 +103,41 @@ header {
     width: auto;
 }
 
+/* MOBILE */
+@media screen and (max-width: 992px) {
+    .menus {
+        display: none;
+    }
+    header {
+        height: 90px;
+    }
+    .empty-header {
+        height: 90px;
+    }
+    .menu > div {
+        line-height: 90px;
+        font-size: 18px;
+        margin: 0px 0px 0px 16px;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    .sandwich > .bars {
+        display: none;
+        padding: 10px;
+    }
+    header {
+        height: 59px;
+    }
+    .empty-header {
+        height: 59px;
+    }
+    .menu > div {
+        line-height: 59px;
+    }
+}
+
 /*Content Part*/
 .botao {
     margin-top: 20px;
@@ -153,6 +154,10 @@ header {
     font-weight: bold;
     letter-spacing: .1em;
     transition: all .5s ease;
+}
+
+@media screen and (max-width: 144px) {
+    
 }
 
 /* Page part */
@@ -304,7 +309,6 @@ header {
     display: inline-block;
 
     margin: 15px;
-
 }
 
 .produto-img {
@@ -373,7 +377,7 @@ header {
 
 .pagination {
     display: flex;
-    width: 30%;
+    width: 500px;
 }
 
 .pagination a {
@@ -394,8 +398,6 @@ header {
 }
 
 /* Portfolio */
-
-
 
 .portfolio {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.2) inset;
