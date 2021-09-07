@@ -3,7 +3,7 @@
 Este repositório é destinado ao armazenamento de deveres e exercicíos do curso de HTML & CSS da Step Academy
 
 Para explorar melhor os projetos é recomendável acessar o repositório através deste link:
-https://gabrielmottadev.github.io/step-html-css/
+https://stephtmlcss.gabrielmotta.dev/
 
 <a href="Aulas/">Aulas</a>
 <br/>
