@@ -288,6 +288,10 @@ header {
     transform: rotateY(180deg);
 }
 
+.flip-card:hover .flip-card-back {
+    display: none;
+}
+
 .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
